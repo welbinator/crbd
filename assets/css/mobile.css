@@ -16,4 +16,34 @@
 	section.reviews .container {
 		flex-direction: column;
 	}
+
+	ul.nav-items {
+		flex-direction: column;
+		height: 100vh;
+		width: 100%;
+		justify-content: space-around;
+		position: absolute;
+		background: black;
+		right: -100%;
+		top: 0;
+		z-index: 1;
+	}
+	ul.nav-items.open {
+		right: 0;
+	}
+	.nav-item a {
+		color: white;
+		font-weight: bold;
+	}
+	.mobile-icon {
+		display: block !important;
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 20px;
+		z-index: 2;
+	}
+	svg rect.open {
+		fill: white;
+	}
 }

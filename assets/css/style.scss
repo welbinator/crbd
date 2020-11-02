@@ -29,9 +29,24 @@ header {
 	nav {
 		width: clamp(300px, 30vw, 50%);
 		ul.nav-items {
-			li.nav-item {
-				a {
-					font-weight: 600;
+			transition: 0.3s all;
+			li {
+				.nav-item {
+					a {
+						font-weight: 600;
+					}
+				}
+			}
+		}
+		.mobile-icon {
+			display: none;
+			cursor: pointer;
+
+			&.open {
+				svg {
+					rect {
+						fill: white;
+					}
 				}
 			}
 		}
@@ -44,7 +59,7 @@ section {
 
 		.left {
 			height: 100%;
-			width: 50%;
+			width: 46%;
 			background-image: url(/assets/img/james-whiteboard2.png);
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -64,6 +79,7 @@ section {
 		}
 		.right {
 			width: 50%;
+			padding-left: 4%;
 
 			h2 {
 				font-size: clamp(40px, 4vw, 60px);

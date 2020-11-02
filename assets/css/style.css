@@ -31,8 +31,22 @@ header nav {
   width: clamp(300px, 30vw, 50%);
 }
 
-header nav ul.nav-items li.nav-item a {
+header nav ul.nav-items {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+header nav ul.nav-items li .nav-item a {
   font-weight: 600;
+}
+
+header nav .mobile-icon {
+  display: none;
+  cursor: pointer;
+}
+
+header nav .mobile-icon.open svg rect {
+  fill: white;
 }
 
 section.hero {
@@ -41,7 +55,7 @@ section.hero {
 
 section.hero .left {
   height: 100%;
-  width: 50%;
+  width: 46%;
   background-image: url(/assets/img/james-whiteboard2.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,6 +76,7 @@ section.hero .left::before {
 
 section.hero .right {
   width: 50%;
+  padding-left: 4%;
 }
 
 section.hero .right h2 {

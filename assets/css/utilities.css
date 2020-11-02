@@ -79,6 +79,9 @@
 	font-weight: bold;
 }
 
+
+/*** FLEXBOX ***/
+
 .flex {
 	display: flex;
 	justify-content: center;
@@ -96,7 +99,12 @@
 .jcsa {
 	justify-content: space-around;
 }
-
+.jcfs {
+	justify-content: flex-start;
+}
+.jcfe {
+	justify-content: flex-end;
+}
 .aisb {
 	align-items: space-between;
 }
