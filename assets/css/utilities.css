@@ -1,0 +1,106 @@
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.p1 {
+	padding: 1rem;
+}
+
+.p2 {
+	padding: 1.5rem;
+}
+
+.p3 {
+	padding: 2rem;
+}
+
+.px1 {
+	padding: 1rem 0;
+}
+
+.px2 {
+	padding: 1.5rem 0;
+}
+
+.px3 {
+	padding: 2rem 0;
+}
+
+.py1 {
+	padding: 1rem 0;
+}
+
+.py2 {
+	padding: 1.5rem 0;
+}
+
+.py3 {
+	padding: 2rem 0;
+}
+
+.m1 {
+	margin: 1rem;
+}
+
+.m2 {
+	margin: 1.5rem;
+}
+
+.m3 {
+	margin: 2rem;
+}
+
+.mx1 {
+	margin: 1rem 0;
+}
+
+.mx2 {
+	margin: 1.5rem 0;
+}
+
+.mx3 {
+	margin: 2rem 0;
+}
+
+.my1 {
+	margin: 1rem 0;
+}
+
+.my2 {
+	margin: 1.5rem 0;
+}
+
+.my3 {
+	margin: 2rem 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fdc {
+	flex-direction: column;
+}
+
+.jcsb {
+	justify-content: space-between;
+}
+
+.jcsa {
+	justify-content: space-around;
+}
+
+.aisb {
+	align-items: space-between;
+}
+
+.aisa {
+	align-items: space-around;
+}

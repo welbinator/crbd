@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+	section.hero {
+		flex-direction: column;
+	}
+	section.hero .left {
+		display: none;
+	}
+	section.hero .right {
+		width: 100%;
+		padding: 20px;
+	}
+	.zcwf_lblLeft .zcwf_col_fld {
+		width: 100%;
+	}
+
+	section.reviews .container {
+		flex-direction: column;
+	}
+}
