@@ -103,6 +103,7 @@ section.featured .img-fluid {
 section.reviews .container {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  position: relative;
   max-width: 1200px;
 }
 
@@ -114,12 +115,14 @@ section.reviews .container .text p {
   font-size: 1.25rem;
 }
 
-section.reviews .container#review {
-  -webkit-transition: opacity 0.5s linear 0s;
-  transition: opacity 0.5s linear 0s;
+section.reviews .container .review {
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+  position: absolute;
+  top: 0;
 }
 
-section.reviews .container#review.hide {
+section.reviews .container .review:not(:first-child) {
   opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */

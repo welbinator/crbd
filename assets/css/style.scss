@@ -107,6 +107,7 @@ section {
 	&.reviews {
 		.container {
 			transition: all 0.2s;
+			position: relative;
 			.profile {
 				img {
 					max-width: 200px;
@@ -118,11 +119,13 @@ section {
 					font-size: 1.25rem;
 				}
 			}
-			&#review {
-				transition: opacity 0.5s linear 0s;
-				&.hide {
+			.review {
+				&:not(:first-child) {
 					opacity: 0;
 				}
+				transition: opacity 0.5s ease-in;
+				position: absolute;
+				top: 0;
 			}
 		}
 	}
