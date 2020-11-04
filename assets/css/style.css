@@ -43,6 +43,7 @@ header nav ul.nav-items li .nav-item a {
 header nav .mobile-icon {
   display: none;
   cursor: pointer;
+  pointer-events: all;
 }
 
 header nav .mobile-icon.open svg rect {

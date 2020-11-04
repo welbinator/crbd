@@ -28,6 +28,7 @@ header {
 	}
 	nav {
 		width: clamp(300px, 30vw, 50%);
+
 		ul.nav-items {
 			transition: 0.3s all;
 			li {
@@ -41,6 +42,7 @@ header {
 		.mobile-icon {
 			display: none;
 			cursor: pointer;
+			pointer-events: all;
 
 			&.open {
 				svg {
