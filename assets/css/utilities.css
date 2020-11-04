@@ -1,3 +1,17 @@
+/*** TEXT ***/
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
@@ -14,6 +28,9 @@
 .p3 {
 	padding: 2rem;
 }
+.p4 {
+	padding: 4rem;
+}
 
 .px1 {
 	padding: 1rem 0;
@@ -25,6 +42,9 @@
 
 .px3 {
 	padding: 2rem 0;
+}
+.px4 {
+	padding: 4rem 0;
 }
 
 .py1 {
@@ -78,7 +98,6 @@
 .bold {
 	font-weight: bold;
 }
-
 
 /*** FLEXBOX ***/
 

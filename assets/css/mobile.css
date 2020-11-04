@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
 	section.hero {
 		flex-direction: column;
+		justify-content: center;
 	}
 	section.hero .left {
 		display: none;
@@ -45,5 +46,15 @@
 	}
 	svg rect.open {
 		fill: white;
+	}
+	.review.flex {
+		flex-direction: column;
+	}
+	.review div {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	section.reviews .container .text p {
+		font-size: 1rem;
 	}
 }

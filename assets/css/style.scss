@@ -108,6 +108,7 @@ section {
 		.container {
 			transition: all 0.2s;
 			position: relative;
+			min-height: 50vh;
 			.profile {
 				img {
 					max-width: 200px;
@@ -120,12 +121,25 @@ section {
 				}
 			}
 			.review {
+				transition: opacity 0.5s ease-in;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
 				&:not(:first-child) {
 					opacity: 0;
 				}
-				transition: opacity 0.5s ease-in;
-				position: absolute;
-				top: 0;
+			}
+		}
+	}
+	&.services {
+		.services-wrapper {
+			flex-wrap: wrap;
+			border-top: 1px solid #ccc;
+
+			.service {
+				border: 1px solid #ccc;
+				width: 25%;
+				padding: 100px 0;
 			}
 		}
 	}
