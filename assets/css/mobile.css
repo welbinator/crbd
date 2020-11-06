@@ -66,4 +66,7 @@
 	section.reviews .container .text p {
 		font-size: 1rem;
 	}
+	section.services .services-wrapper .service {
+		width: 33.33%;
+	}
 }
