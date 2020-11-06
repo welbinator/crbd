@@ -10,3 +10,16 @@ function toggleMenu() {
 }
 
 mobileIcon.addEventListener("click", toggleMenu);
+
+/** service hover animation  **/
+
+const services = document.querySelectorAll(".service");
+
+services.forEach((service) => {
+	service.addEventListener("mouseover", function () {
+		this.classList.add("hover");
+	});
+	service.addEventListener("mouseout", function () {
+		this.classList.remove("hover");
+	});
+});
