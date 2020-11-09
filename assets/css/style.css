@@ -181,4 +181,35 @@ section.services .services-wrapper .service::before {
   transition: transform 1s ease, opacity 1.5s ease;
   transition: transform 1s ease, opacity 1.5s ease, -webkit-transform 1s ease;
 }
+
+section.contact {
+  padding: 30px;
+  background: #dcdcdc;
+  position: relative;
+  margin-top: 30px;
+}
+
+section.contact::before {
+  content: "";
+  width: 120%;
+  height: 200px;
+  background: #dcdcdc;
+  position: absolute;
+  top: -40px;
+  left: -10%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+}
+
+section.contact .form-wrapper {
+  max-width: 900px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+section.contact .form-wrapper .hbspt-form .hs-form-iframe {
+  width: 100% !important;
+}
 /*# sourceMappingURL=style.css.map */

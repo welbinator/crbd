@@ -69,4 +69,7 @@
 	section.services .services-wrapper .service {
 		width: 33.33%;
 	}
+	section.contact {
+		margin-top: 100px;
+	}
 }

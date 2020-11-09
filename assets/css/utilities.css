@@ -1,11 +1,19 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .hide {
 	visibility: hidden;
 	pointer-events: none;
+}
+.d-none {
+	display: none;
 }
 
 /*** TEXT ***/
 h3 {
 	font-size: 2rem;
+	position: relative;
 }
 
 .text-center {
@@ -118,6 +126,28 @@ h3 {
 
 .my3 {
 	margin: 2rem 0;
+}
+.mb1 {
+	margin-bottom: 1rem;
+}
+
+.mb2 {
+	margin-bottom: 1.5rem;
+}
+
+.mb3 {
+	margin-bottom: 2rem;
+}
+.mt1 {
+	margin-top: 1rem;
+}
+
+.mt2 {
+	margin-top: 1.5rem;
+}
+
+.mt3 {
+	margin-top: 2rem;
 }
 
 .bold {
