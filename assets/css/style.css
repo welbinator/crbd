@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;600&family=Nunito:wght@400;600&family=Poppins:wght@400;500&display=swap");
 @import url("variables.css");
 @import url("utilities.css");
 @import url("zohoform.css");
@@ -9,6 +10,15 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: var(--primaryColor);
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -18,6 +28,10 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 a {
@@ -182,9 +196,49 @@ section.services .services-wrapper .service::before {
   transition: transform 1s ease, opacity 1.5s ease, -webkit-transform 1s ease;
 }
 
+section.about {
+  background: var(--primaryColor);
+  padding: 0px 0 200px 0;
+  position: relative;
+  margin-top: 100px;
+}
+
+section.about h3,
+section.about h4,
+section.about p {
+  color: white;
+}
+
+section.about h4 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  max-width: 1200px;
+  margin: auto;
+  font-weight: 300;
+}
+
+section.about h4 span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: var(--accentColor);
+  text-shadow: 1px 1px 0px var(--accentColor);
+}
+
+section.about::before {
+  content: "";
+  width: 120%;
+  height: 200px;
+  background: var(--primaryColor);
+  position: absolute;
+  top: 0px;
+  left: -10%;
+  -webkit-transform: rotate(2deg) translateY(-50%);
+          transform: rotate(2deg) translateY(-50%);
+  z-index: -1;
+}
+
 section.contact {
   padding: 30px;
-  background: #dcdcdc;
   position: relative;
   margin-top: 30px;
 }
@@ -193,12 +247,12 @@ section.contact::before {
   content: "";
   width: 120%;
   height: 200px;
-  background: #dcdcdc;
+  background: #fff;
   position: absolute;
-  top: -40px;
+  top: 0px;
   left: -10%;
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
+  -webkit-transform: rotate(2deg) translateY(-50%);
+          transform: rotate(2deg) translateY(-50%);
 }
 
 section.contact .form-wrapper {

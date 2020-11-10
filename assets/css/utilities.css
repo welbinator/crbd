@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	overflow-x: hidden;
 }
 
 .hide {
@@ -102,6 +103,9 @@ h3 {
 
 .m3 {
 	margin: 2rem;
+}
+.m4 {
+	margin: 4rem;
 }
 
 .mx1 {
